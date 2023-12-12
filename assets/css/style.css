@@ -13,8 +13,8 @@
 :root {
     --primary-font-family: 'Ubuntu';
     --secondary-font-family: 'Raleway';
-    --secondary-font-size: 15px;
-    --primary-font-size: 30px;
+    --secondary-font-size: 14px;
+    --primary-font-size: 20px;
     --btn-font-size: 14px;
     --white-color: white;
     --black-color: black;
@@ -222,8 +222,10 @@
     margin-top: 20px;
 }
 
-.domain_content {
-
+.count-box span {
+    color: var(--tomato-color);
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .domain h4 {
@@ -233,3 +235,88 @@
     font-weight: 600;
 }
 /* hero section end */
+
+/* Customer section start */
+#coustomar_support {
+    margin-top: 180px;
+    padding: 40px 0px;
+}
+
+.coustomar_box {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: 15px;
+}
+
+.coustomar_icon img{
+    width: 40px;
+}
+
+.coustomar_icon h2{
+    font-family: var(--primary-font-family);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.coustomar_icon p{
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
+    line-height: 1.7rem;
+    margin-top: 20px;
+    text-align: center;
+}
+/* Customer section end */
+
+/* web hosting section start */
+#web_hosting {
+    padding: 40px 0px;
+}
+
+.hosting_area {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.hosting_content h2{
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--primary-font-family);
+}
+
+.hosting_content p{
+    text-align: center;
+    font-weight: 500;
+    font-family: var(--secondary-font-family);
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.hosting_input {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.hosting_input label {
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    padding: 3px  20px;
+    font-size: var(--btn-font-size);
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+    font-family: var(--secondary-font-family);
+    transition: 1s;
+    border: 1px solid var(--purple-color);
+}
+
+.hosting_input label:hover {
+    background-color: aliceblue;
+    color: var(--black-color);
+}
+
+/* web hosting section end */
