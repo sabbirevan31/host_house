@@ -346,5 +346,139 @@
       </div>
     </section>
     <!-- host section end -->
+    <!-- location section start -->
+    <section id="location">
+      <div class="container">
+        <div class="location_content">
+          <h2>Our Data Center Location</h2>
+          <p>Choose any location to World wide data to store your contant</p>
+        </div>
+      </div>
+    </section>
+    <!-- location section end -->
+
+    <!-- tab section start -->
+    <section id="navtab">
+      <div class="container">
+        <ul class="nav tablist" role="tablist">
+          <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="pill" href="#">India</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link"data-bs-toggle="pill" href="#">Russia</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#"> Bangladesh</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#">UK</a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#">Brazil</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#">Indonesia</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#">More...</a>
+          </li>
+      </ul>
+      </div>
+    </section>
+    <!-- tab section end -->
+
+    <!-- services section start -->
+    <section id="services">
+      <div class="container">
+        <div class="services_content">
+          <h2>Host House Special</h2>
+          <p>Features and Services</p>
+          <div class="services_area">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="services_card">
+                  <img src="./assets/img/home/Group 39.png" alt="" style="width: 40px;">
+                  <h3>Rock - Solid Security</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                  <img src="./assets/img/home/Layer 2 (1).png" alt="" class="services_icon">
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="services_card">
+                  <img src="./assets/img/home/Group (1).png" alt="">
+                  <h3>100% Moneyback Guarantee</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                  <img src="./assets/img/home/Layer 2 (1).png" alt="" class="services_icon">
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="services_card">
+                  <img src="./assets/img/home/Group 133.png" alt="">
+                  <h3>High Performance</h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                  <img src="./assets/img/home/Layer 2 (1).png" alt="" class="services_icon">
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="services_card">
+                  <img src="./assets/img/home/Layer 2.png" alt="">
+                  <h3>Smooth Data Transfer </h3>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                  <img src="./assets/img/home/Layer 2 (1).png" alt="" class="services_icon">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section end -->
+
+    <!-- review section start -->
+    <section id="review">
+      <div class="container">
+        <div class="review_content">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="review_counter">
+                <h2>What is Review</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="count-box">
+                  <span class="counter">50</span>
+                  <p>Clients</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review section end -->
+    <!-- javascript code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      $(document).ready(function(){
+
+        $('.counter').each(function(){
+
+          $(this).prop('counter',0).animate({
+
+            counter : $(this).text()
+
+          },{
+            duration : 3500,
+            easing : 'swing',
+            step : function (now){
+              $(this).text(Math.ceil(now)+ '+');
+            }
+          })
+
+        });
+
+      });
+    </script>
 </body>
 </html>
