@@ -14,12 +14,12 @@
     --primary-font-family: 'Ubuntu';
     --secondary-font-family: 'Raleway';
     --secondary-font-size: 14px;
-    --primary-font-size: 20px;
+    --primary-font-size: 25px;
     --btn-font-size: 14px;
     --white-color: white;
     --black-color: black;
-    --purple-color: rgb(95, 29, 172);
-    --tomato-color: rgb(247, 108, 83);
+    --purple-color: rgb(72, 56, 117);
+    --tomato-color: rgb(245, 70, 70);
 }
 
 /* navegation section start */
@@ -277,18 +277,30 @@
     display: block;
     margin: auto;
     text-align: center;
+    margin-top: 60px;
+}
+
+
+.hosting_content button{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 .hosting_content h2{
     text-align: center;
-    font-weight: 900;
+    font-weight: 600;
+    font-size: var(--primary-font-size);
     font-family: var(--primary-font-family);
 }
 
 .hosting_content p{
     text-align: center;
-    font-weight: 500;
     font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
     font-size: 20px;
     padding-top: 10px;
 }
@@ -319,4 +331,297 @@
     color: var(--black-color);
 }
 
+.hosting_card {
+    border: 1px solid rgb(218, 218, 218);
+    padding: 0px !important;
+    border-radius: 20px 0px 20px !important;
+}
+
+.hosting_card h2 {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.hosting_card p {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
+}
+
+
+.hosting_card h4 {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
+    margin-top: 10px;
+}
+
+.hosting_card span {
+    font-family: var(--secondary-font-family);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.hosting_card h3 {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.hosting_card ul {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size); 
+    margin-top: 30px;
+}
+
+.hosting_card ul li {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size); 
+    text-align: start !important;
+    list-style: none;
+    padding: 6px;
+}
+
+.hosting_card ul li a {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size); 
+    text-align: start !important;
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.hosting_card ul li a img {
+   margin-right: 10px !important;
+}
+
+
+.hosting_card button {
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    padding: 12px;
+    border: none;
+    width: 100%;
+    font-size: 17px;
+    font-family: var(--primary-font-family);
+    transition: 1s;
+    border-radius: 0px 0px 20px;
+}
+
+.hosting_border {
+    width: 80%;
+    background-color: aliceblue;
+    padding: 0.5px;
+    margin-top: 20px !important;
+    display: block;
+    margin: auto;
+}
+
+.hosting_premium {
+    background-color: var(--purple-color);
+    padding: 0px !important;
+    color: var(--white-color) !important;
+    border-radius: 20px 0px 20px !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.hosting_position {
+    position: absolute;
+    transform: rotate(320deg);
+    top: 20px;
+    right: 190px;
+    height: 15px;
+    width: 220px;
+    background-color: var(--tomato-color);
+}
+
+.hosting_position p {
+    padding: 8px;
+    padding-right: 40px;
+    font-size: var(--secondary-font-size);
+    background-color: var(--tomato-color);
+}
+
+.hosting_premium h2 {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+    padding-top: 20px !important;
+}
+
+.hosting_premium p {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
+}
+
+
+.hosting_premium h4 {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
+    margin-top: 10px;
+}
+
+.hosting_premium span {
+    font-family: var(--secondary-font-family);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.hosting_premium h3 {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
+    margin-top: 10px;
+}
+
+.hosting_premium ul {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size); 
+    margin-top: 30px;
+}
+
+.hosting_premium ul li {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size); 
+    text-align: start !important;
+    list-style: none;
+    padding: 6px;
+}
+
+.hosting_premium ul li a {
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size); 
+    text-align: start !important;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.hosting_premium ul li a img {
+   margin-right: 10px !important;
+}
+
+
+.hosting_premium button {
+    background-color: var(--tomato-color);
+    color: var(--white-color);
+    padding: 12px;
+    border: none;
+    width: 100%;
+    font-size: 17px;
+    font-family: var(--primary-font-family);
+    transition: 1s;
+    border-radius: 0px 0px 20px;
+}
 /* web hosting section end */
+
+/* Control Planel section start */
+#control_planel {
+    padding: 30px 0px;
+}
+
+.control_content h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: var(--primary-font-size);
+    font-family: var(--primary-font-family);
+}
+
+.control_content p{
+    text-align: center;
+    font-weight: 500;
+    font-family: var(--secondary-font-family);
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.control_icon img {
+    width: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.control_icon h3 {
+    font-family: var(--primary-font-family);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px !important;
+    text-align: center;
+}
+
+.control_icon p{
+    text-align: center;
+    line-height: 1.5rem;
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
+    padding-top: 10px;
+}
+
+
+.control_img img {
+    width: 100%;
+    margin-top: 80px;
+}
+/* Control Planel section end */
+
+/* host section start */
+#host_section {
+    padding: 30px 0px;
+}
+
+.host_content h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: var(--primary-font-size);
+    font-family: var(--primary-font-family);
+}
+
+.host_img img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.host_area h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--primary-font-family);
+    margin-top: 50px;
+}
+
+.host_area p{
+    text-align: center;
+    line-height: 1.5rem;
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
+    padding-top: 20px;
+}
+
+.host_btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.host_btn p{
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
+}
+
+.host_btn p img {
+    margin-right: 10px;
+}
+
+.host_btn button{
+    background-color: var(--tomato-color);
+    color: var(--white-color);
+    padding: 3px  20px !important;
+    font-size: var(--btn-font-size);
+    border: none;
+    font-weight: 700;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 6px;
+    font-family: var(--secondary-font-family);
+    transition: 1s;
+}
+/* host section end */
