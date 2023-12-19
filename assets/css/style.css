@@ -1106,4 +1106,203 @@ footer {
     transition: 1s;
 }
 /* domain section end */
+
+/* features section start */
+#features {
+    padding: 30px 0px;
+}
+
+.features_content h2 {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+    text-align: center;
+}
+
+.features_content p {
+    font-size: var(--secondary-font-size);
+    font-family: var(--secondary-font-family);
+    font-weight: 600;
+    text-align: center;
+}
+
+.features_area {
+    margin-top: 30px;
+}
+
+.features_box {
+    display: flex;
+}
+
+.features-icon  {
+    margin: 7px;
+}
+
+.features-icon img {
+    width: 22px;
+}
+
+.features-icon h3 {
+    font-family: var(--primary-font-family);
+    font-size: 20px;
+    text-align: start;
+}
+
+.features-icon p {
+    font-size: var(--secondary-font-size);
+    font-family: var(--secondary-font-family);
+    text-align: start;
+    margin-top: 20px;
+}
+/* features section end */
+
+/* transfer section start */
+#transfer {
+    padding: 30px 0px;
+}
+
+.transfer_content h2 {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+    text-align: center;
+}
+
+.transfer_content p {
+    font-size: var(--secondary-font-size);
+    font-family: var(--secondary-font-family);
+    font-weight: 600;
+    text-align: center;
+}
+
+.transfer_content img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.transfer-area {
+    margin: 20px;
+}
+
+.transfer-area h3 {
+    font-family: var(--primary-font-family);
+    font-size: 20px;
+    text-align: start;
+    font-weight: 700;
+}
+
+.transfer-area p {
+    font-size: var(--secondary-font-size);
+    font-family: var(--secondary-font-family);
+    text-align: start;
+    margin-top: 20px;
+}
+/* transfer section end */
+
+/* question section start */
+#question {
+    padding: 30px 0px;
+}
+
+.question_content h2 {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none !important;
+    margin-top: 20px;
+}
+
+.card-header {
+    border-bottom: none !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header a{
+    font-family: var(--primary-font-family);
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--tomato-color);
+    font-weight: 500;
+}
+
+.card-header a:hover {
+    color: var(--purple-color) !important;
+}
+
+.card-header img{
+    width: 30px;
+}
+
+.card-header img:hover{
+    transform: rotate(180deg);
+}
+
+.card-body {
+    font-size: var(--secondary-font-size);
+    font-family: var(--secondary-font-family);
+    text-align: start;
+    padding-top: 7px !important;
+}
+/* question section end */
+
+/* guarantee section start */
+#guarantee {
+    background-color: rgb(234, 226, 255);
+    padding: 60px 0px;
+}
+
+.guarantee_content h2 {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.guarantee_content span {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+    color: var(--tomato-color);
+}
+
+.guarantee_content p {
+    font-size: var(--secondary-font-size);
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    color: var(--tomato-color);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.guarantee_content button {
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    padding: 8px 50px;
+    font-size: var(--btn-font-size);
+    border: 1px solid var(--purple-color);
+    font-weight: 700;
+    border-radius: 6px;
+    font-family: var(--secondary-font-family);
+    transition: 1s;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.guarantee_content button:hover {
+    background-color: rgb(234, 226, 255);
+    color: var(--tomato-color);
+    transition: 1s;
+    border: 1px solid var(--tomato-color);
+}
+/* guarantee section end */
 /* domain html end */
