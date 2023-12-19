@@ -1306,3 +1306,94 @@ footer {
 }
 /* guarantee section end */
 /* domain html end */
+
+
+/* about html start */
+#about_hero {
+    padding: 180px 0px;
+    background-image: url(..//img/home/Rectangle\ 112.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.about_content h1 {
+    text-align: center;
+    font-weight: 900;
+    color: var(--white-color);
+    font-family: var(--primary-font-family);
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.about_content p {
+    text-align: center;
+    font-weight: 900;
+    color: var(--white-color);
+    font-family: var(--secondary-font-family);
+    line-height: 3rem;
+    text-transform: uppercase;
+}
+
+/* expertise section start */
+#expertise {
+    padding: 60px 0px;
+}
+
+.expertise_img img {
+    width: 70% !important;
+    display: block;
+    margin: auto;
+}
+
+.expertise_area h2 {
+    font-family: var(--primary-font-family);
+    font-size: var(--primary-font-size);
+    font-weight: 600;
+    text-align: center;
+}
+
+.expertise_area p {
+    font-size: var(--secondary-font-size);
+    font-family: var(--secondary-font-family);
+    color: var(--tomato-color);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.expertise_area ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: var(--secondary-font-size);
+    font-family: var(--secondary-font-family);
+    padding: 10px;
+}
+
+.expertise_area img {
+    width: 30px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+/* expertise section end */
+
+/* web plan section start */
+.web_plan_icon img{
+    
+}
+
+.web_plan_icon h2{
+    font-family: var(--primary-font-family);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.web_plan_icon p{
+    font-family: var(--secondary-font-family);
+    font-size: var(--secondary-font-size);
+    line-height: 1.7rem;
+    margin-top: 20px;
+    text-align: center;
+}
+/* web plan section end */
+/* about html end */
