@@ -37,7 +37,7 @@
 }
 
 .navbar .nav-item .nav-link {
-    padding: 14px !important;
+    padding: 17px !important;
     color: var(--black-color);
     font-size: var(--secondary-font-size);
     font-family: var(--secondary-font-family);
@@ -48,11 +48,16 @@
     color: var(--purple-color);
 }
 
-.navbar .nav-item .nav-link {
+
+.navbar .nav-item .nav-link:hover {
+    color: var(--purple-color);
+}
+
+ .navbar .nav-item .nav-link {
     position: relative;
     display: inline-block;
 }
- 
+
 
 .navbar .nav-item .nav-link::before {
     position: absolute;
@@ -71,8 +76,7 @@
     transform: scaleX(1);
     transform-origin: left;
 }
-
-
+ 
 
 .dropdown-menu {
     width: 100px;
@@ -157,7 +161,7 @@
 .hero_content button:hover {
     background-color: var(--white-color);
     color: var(--tomato-color);
-    box-shadow: 0 0 5px rgb(36, 216, 255), 0 0 20px rgb(36, 216, 255), 0 0 25px rgb(36, 216, 255), 0 0 150px rgb(36, 216, 255), 0 0 200px rgb(36, 216, 255);
+    
     transition: 1s;
 }
 
@@ -165,14 +169,16 @@
     background-color: var(--white-color);
     margin-bottom: -250px;
     border-radius: 10px;
-    padding: 20px;
-    box-shadow:  0 0 5px rgb(175, 176, 177), 0 0 10px rgb(198, 232, 240);
+    padding: 30px;
+    box-shadow:  0 0 1px rgb(175, 176, 177), 0 0 8px rgb(197, 197, 197);
 }
 
 .domain_area h2{
     text-align: center;
     font-weight: 900;
     font-size: 30px;
+    font-family: var(--primary-font-family);
+    margin-top: 10px;
 }
 
 .domain_input {
@@ -182,24 +188,26 @@
 }
 
 .domain_input input {
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(255, 221, 221);
     color: var(--white-color);
-    padding: 8px 35%;
+    padding: 15px 35%;
     font-size: var(--btn-font-size);
     border: none;
     padding-left: 3%;
     font-weight: 700;
     border-radius: 6px;
     font-family: var(--secondary-font-family);
+    font-size: 15px;
     transition: 1s;
     margin-top: 20px;
+    outline: none;
 }
 
 .domain_input label {
     background-color: var(--purple-color);
     color: var(--white-color);
-    padding: 8px  13px;
-    font-size: var(--btn-font-size);
+    padding: 12px  13px;
+    font-size: 16px;
     border: none;
     padding-left: 3%;
     font-weight: 700;
@@ -207,6 +215,16 @@
     font-family: var(--secondary-font-family);
     transition: 1s;
     margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 1s;
+}
+
+.domain_input label:hover {
+    background-color: var(--white-color);
+    color: black;
+    border: 2px solid var(--tomato-color);
+    transition: 1s;
 }
 
 .domain_input label img {
@@ -218,14 +236,14 @@
     display: block;
     margin: auto;
     text-align: center;
-    width: 76%;
-    margin-top: 20px;
+    width: 58%;
 }
 
-.count-box span {
+.count_box span {
     color: var(--tomato-color);
     font-weight: 700;
     font-size: 20px;
+    margin-top: 0 !important;
 }
 
 .domain h4 {
@@ -233,6 +251,7 @@
     font-size: 20px;
     color: var(--purple-color);
     font-weight: 600;
+    margin-top: 20px;
 }
 /* hero section end */
 
@@ -1026,6 +1045,7 @@ footer {
     padding: 200px 0px;
     background-position: center;
 }
+
 
 .domain_content h1 {
     text-align: center;
